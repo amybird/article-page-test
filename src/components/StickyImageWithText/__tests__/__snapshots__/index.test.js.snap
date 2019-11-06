@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should render a container 1`] = `
+.c2 {
+  font-family: serif;
+  line-height: 26px;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.c2::first-letter {
+  font-size: 50px;
+}
+
+.c3 {
+  font-family: serif;
+  line-height: 26px;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.c3::first-letter {
+  font-size: 20px;
+}
+
+.c0 {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.c4 {
+  font-size: 30px;
+  line-height: 40px;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c5 {
+  width: 100%;
+  top: 5px;
+  display: inline-block;
+}
+
+.c1 {
+  width: 100%;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+@media (min-width:768px) {
+  .c4 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    margin-top: 70px;
+    padding: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 50%;
+    vertical-align: top;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 50%;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <p
+      className="c2"
+    >
+      Going unnoticed is not in Danai Gurira’s repertoire. When the 41-year-old actress walks into the roof restaurant of the Dream hotel in Hollywood, wearing faded denim, a cream silk blouse and mirrored aviators, she practically gleams in the morning light. It’s hard to say if the other patrons recognize her as General Okoye, the fierce protector of the Wakanda royal family in Black Panther, or the equally imposing zombie-slayer Michonne from The Walking Dead, or are just struck by the way she carries herself, but all eyes are on her.
+    </p>
+    <p
+      className="c3"
+    >
+      “I’m running a writers’ room near here,” Gurira says, sitting down and peering over the railing at the sprawl of surrounding offices and studios. She is talking about the newest line on her résumé: head writer for a television mini-series. Aside from her commanding performances on screen, she’s also a feted writer whose plays have garnered multiple awards, including a Tony nomination. Now she’s adapting Chimamanda Ngozi Adichie’s acclaimed novel Americanah – a love story following a Nigerian couple through their complicated lives – with her longtime friend Lupita Nyong’o. The two became close in 2015 when Nyong’o starred in Gurira’s all-female play Eclipsed, about the Liberian civil war.
+    </p>
+    <p
+      className="c4"
+    >
+      “It’s about collaborating NOT cooperating. I’m pretty willing to have a CLEAR conversation about what I think WORKS, and what doesn’t, and why”
+    </p>
+  </div>
+  <div
+    className="c5"
+  >
+    <picture>
+      <img
+        alt="this is a lovely image"
+        src="https://cache.net-a-porter.com/content/images/story-body-content-SUBBED-0-1556266075382.jpeg/w950_q65.jpeg"
+      />
+    </picture>
+  </div>
+</div>
+`;

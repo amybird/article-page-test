@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should render a container 1`] = `
+.c0 {
+  position: relative;
+}
+
+.c0 .fade-in {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+}
+
+.c0 .fade-out {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0s 0.3s,opacity 0.3s linear;
+  transition: visibility 0s 0.3s,opacity 0.3s linear;
+}
+
+.c2 {
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.c3 {
+  position: absolute;
+  color: white;
+  width: 100%;
+  top: 50%;
+  padding: 0 30px;
+}
+
+.c3 * {
+  font-weight: lighter;
+}
+
+.c3 span {
+  text-transform: uppercase;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+
+.c3 h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: serif;
+  font-size: 30px;
+}
+
+.c3 h3 {
+  margin: 0;
+  text-align: right;
+  font-family: serif;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 500px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    position: absolute;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    padding: 0 0 0;
+  }
+
+  .c3 div {
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .c3 span {
+    font-size: 16px;
+  }
+
+  .c3 h1 {
+    font-size: 70px;
+    -webkit-letter-spacing: 2px;
+    -moz-letter-spacing: 2px;
+    -ms-letter-spacing: 2px;
+    letter-spacing: 2px;
+  }
+
+  .c3 h3 {
+    font-size: 26px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcSet="https://cache.net-a-porter.com/content/images/story-head-content-SUBBED-1556275864012.jpeg/w1900_q65.jpeg"
+      />
+      <img
+        alt="this is a lovely image"
+        src="https://cache.net-a-porter.com/content/images/story-head-content-SUBBED-1556275864012.jpeg/w600_q65.jpeg"
+      />
+    </picture>
+  </div>
+  <div
+    className="c2 fade-in"
+  />
+  <div
+    className="c3"
+  >
+    <div
+      className="fade-in"
+    >
+      <span>
+        Cover Story
+      </span>
+      <h1>
+        Standing strong
+      </h1>
+      <h3>
+        <i>
+          with
+        </i>
+      </h3>
+      <h3>
+        Danai Gurira
+      </h3>
+    </div>
+  </div>
+</div>
+`;

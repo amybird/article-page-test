@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Respsonsive Image renders without source tag for smallImg only 1`] = `
+<picture>
+  <img
+    alt="this is a lovely image"
+    src="test"
+  />
+</picture>
+`;

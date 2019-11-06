@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`renders without source tag for smallImg only 1`] = `
-<picture>
-  <img
-    src="test"
-  />
-</picture>
-`;
